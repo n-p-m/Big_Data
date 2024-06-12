@@ -40,3 +40,9 @@ Course work and notes from Udemy Course by Frank Kane.
 - [x] Flink
 #### Other
 Apache Zepplin, Impala, Accumulo, Redis, Ignite, Elasticsearch, Kinesis, Apache NiFi, Falcon, Apache Slider.
+
+Notes for self->
+
+If latency is concern where we want to responses in milisecond, We could used HBase or Cassandra.
+If queries can be based on day-old data/minute-old, then use Oozie-scheduled jobs with Hive/Pig/Spark
+But if its real-time, we can use Spark Streaming/Storm/Flink with Kafka or Flume.
